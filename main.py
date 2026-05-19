@@ -46,7 +46,7 @@ def add_book():
     
     books.append(book)
     save_books(books)
-    print(f"Книга '{title}' добавлена успешно!")
+    print(f"Книга «{title}» успешно добавлена!")
 
 def show_all_books():
     books = load_books()
@@ -132,3 +132,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#test1
